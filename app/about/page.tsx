@@ -5,7 +5,7 @@ import { IslamicPatternBg } from "@/components/ui/islamic-pattern";
 import Link from "next/link";
 
 const stats = [
-  { value: "11+", label: "Years of Service", desc: "Serving New York since 2013" },
+  { value: "17+", label: "Years of Service", desc: "Serving New York since 2008" },
   { value: "1,000+", label: "Pilgrims Guided", desc: "Trusted across the tri-state area" },
   { value: "5.0 ★", label: "Google Rating", desc: "464 reviews from our community" },
   { value: "2", label: "Holy Cities", desc: "Makkah & Madinah, every trip" },
@@ -40,7 +40,7 @@ export default function AboutPage() {
       <BackgroundPaths
         eyebrow="Our Story"
         title="About Taqwa Hajj & Umrah"
-        subtitle="11+ years of leading Hajj & Umrah at the best price and best service possible — from the heart of Jackson Heights, Queens."
+        subtitle="17+ years of leading Hajj & Umrah at the best price and best service possible — from the heart of Jackson Heights, Queens."
       />
 
       {/* Mission statement */}
@@ -50,7 +50,7 @@ export default function AboutPage() {
             Taqwa Hajj & Umrah was founded with a single belief: that every Muslim in New York deserves the opportunity to perform their pilgrimage with proper spiritual guidance — not just a travel itinerary.
           </p>
           <p className="font-sans text-[#0D1B2A]/70 text-base leading-relaxed mb-4">
-            What began as a small group of families traveling together from Jackson Heights has grown into one of the most trusted pilgrimage organizations in the tri-state area. Over eleven years, we have accompanied more than a thousand pilgrims on their journeys to Makkah and Madinah.
+            What began as a small group of families traveling together from Jackson Heights has grown into one of the most trusted pilgrimage organizations in the tri-state area. Over seventeen years, we have accompanied more than a thousand pilgrims on their journeys to Makkah and Madinah.
           </p>
           <p className="font-sans text-[#0D1B2A]/70 text-base leading-relaxed mb-4">
             We are not a standard travel agency. Every trip we organize is led by a scholar or knowledgeable guide who travels with your group from New York. They provide context, spiritual reflection, and a presence that transforms a trip into a true pilgrimage.

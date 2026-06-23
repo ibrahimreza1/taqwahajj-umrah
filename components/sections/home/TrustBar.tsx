@@ -1,7 +1,7 @@
 import { Clock, Users, BookOpen, Headphones } from "lucide-react";
 
 const items = [
-  { icon: Clock, label: "11+ Years Experience" },
+  { icon: Clock, label: "17+ Years Experience" },
   { icon: Users, label: "Groups Up to 150" },
   { icon: BookOpen, label: "Scholar-Led Tours" },
   { icon: Headphones, label: "24/7 Support" },

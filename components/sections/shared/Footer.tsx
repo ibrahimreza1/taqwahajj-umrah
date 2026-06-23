@@ -15,7 +15,7 @@ export function Footer() {
               </span>
             </div>
             <p className="font-sans text-[#EDE8DF]/50 text-sm leading-relaxed">
-              Scholar-led pilgrimage groups from New York, serving the Muslim community with care and integrity since 2013.
+              Scholar-led pilgrimage groups from New York, serving the Muslim community with care and integrity since 2008.
             </p>
           </div>
 
