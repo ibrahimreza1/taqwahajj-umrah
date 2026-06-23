@@ -81,7 +81,6 @@ const packages: Record<Tab, Array<{
         "Full board meals",
         "Pre-Hajj orientation in NYC",
       ],
-      highlight: true,
     },
   ],
   Ramadan: [
@@ -99,7 +98,6 @@ const packages: Record<Tab, Array<{
         "Scholar-led guidance",
         "24/7 group support",
       ],
-      highlight: true,
     },
     {
       name: "Full Ramadan",
