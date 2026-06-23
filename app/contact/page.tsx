@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import { MapPin, Phone, MessageCircle } from "lucide-react";
+import { MapPin, Phone, MessageCircle, Mail } from "lucide-react";
 import { Footer } from "@/components/sections/shared/Footer";
 import { BackgroundPaths } from "@/components/ui/background-paths";
 
@@ -153,11 +153,23 @@ export default function ContactPage() {
                   </div>
                   <div>
                     <p className="font-sans font-semibold text-[#0D1B2A] text-sm">Phone</p>
-                    <a
-                      href="tel:+19176918162"
-                      className="font-sans text-[#C9A84C] text-sm hover:underline"
-                    >
+                    <a href="tel:+19176918162" className="font-sans text-[#C9A84C] text-sm hover:underline block">
                       +1 917-691-8162
+                    </a>
+                    <a href="tel:+17188664255" className="font-sans text-[#C9A84C] text-sm hover:underline block mt-0.5">
+                      +1 718-866-HAJJ
+                    </a>
+                  </div>
+                </div>
+
+                <div className="flex items-start gap-3">
+                  <div className="w-9 h-9 rounded-full bg-[#0D1B2A] flex items-center justify-center shrink-0">
+                    <Mail className="w-4 h-4 text-[#C9A84C]" />
+                  </div>
+                  <div>
+                    <p className="font-sans font-semibold text-[#0D1B2A] text-sm">Email</p>
+                    <a href="mailto:reservations@taqwahajjandumrah.org" className="font-sans text-[#C9A84C] text-sm hover:underline">
+                      reservations@taqwahajjandumrah.org
                     </a>
                   </div>
                 </div>
