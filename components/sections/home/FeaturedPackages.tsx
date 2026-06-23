@@ -7,49 +7,36 @@ import { useRef } from "react";
 
 const packages = [
   {
-    name: "Economy Umrah",
-    tagline: "Everything you need, nothing you don't",
-    duration: "10 Days",
-    price: "From $2,499",
+    name: "October Umrah 2026",
+    tagline: "Columbus Day Weekend · Oct 10 – Oct 18",
+    duration: "8 Days",
+    price: "Starting at $2,350",
     features: [
-      "Round-trip flights from JFK",
-      "3-star hotel near Haram",
-      "Visa processing",
-      "Airport transfers",
-      "Scholar-led guidance",
-      "Group support throughout",
+      "Direct flight with Saudia Airlines",
+      "Madinah: Intercontinental Dar Al Hijrah",
+      "Makkah: Fairmont Hotel, Royal Clocktower",
+      "Visa & all transfers included",
+      "Religious & Historical Sightseeing",
+      "Pre-Umrah Webinar",
+      "Breakfast Buffet daily",
+      "24/7 Staff Assistance",
     ],
     highlight: false,
   },
   {
-    name: "Ramadan Umrah",
-    tagline: "The most blessed nights of the year",
-    duration: "14 Days",
-    price: "From $3,499",
+    name: "November Umrah 2026",
+    tagline: "Thanksgiving Break · Nov 21 – Nov 29",
+    duration: "9 Days",
+    price: "Starting at $2,290",
     features: [
-      "Round-trip flights from JFK",
-      "4-star hotel near Haram",
-      "Visa processing",
-      "Daily iftar arrangements",
-      "Tahajjud & Tarawih programs",
-      "Scholar-led guidance",
-      "24/7 group support",
-    ],
-    highlight: true,
-  },
-  {
-    name: "Premium Umrah",
-    tagline: "A journey of comfort and contemplation",
-    duration: "12 Days",
-    price: "From $4,299",
-    features: [
-      "Business class upgrade available",
-      "5-star hotel, Haram view",
-      "Visa processing",
-      "Private transfers",
-      "Exclusive scholar lectures",
-      "Ziyarat tours included",
-      "Dedicated group coordinator",
+      "Flight with Saudia Airlines",
+      "Madinah: Intercontinental Dar Al Hijra",
+      "Makkah: Fairmont Hotel, Clocktower",
+      "Visa & all transport included",
+      "Religious Sightseeing Tours",
+      "Pre-Umrah Webinar",
+      "Breakfast Buffet daily",
+      "24/7 Staff Assistance",
     ],
     highlight: false,
   },
@@ -96,7 +83,7 @@ export function FeaturedPackages() {
         <div ref={containerRef} style={{ perspective: "1200px" }}>
           <motion.div
             style={{ rotateX, scale, opacity, y }}
-            className="grid md:grid-cols-3 gap-6"
+            className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto"
           >
             {packages.map((pkg) => (
               <div
@@ -107,13 +94,7 @@ export function FeaturedPackages() {
                     : "bg-white border-[#C9A84C]/20"
                 }`}
               >
-                {pkg.highlight && (
-                  <div className="absolute -top-3 left-1/2 -translate-x-1/2 bg-[#C9A84C] text-[#0D1B2A] text-xs font-sans font-semibold px-4 py-1 rounded-full uppercase tracking-wider">
-                    Most Popular
-                  </div>
-                )}
-
-                <div>
+<div>
                   <span className={`text-xs font-sans uppercase tracking-widest ${pkg.highlight ? "text-[#C9A84C]/70" : "text-[#7A9E8E]"}`}>
                     {pkg.duration}
                   </span>
