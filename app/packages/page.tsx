@@ -47,7 +47,6 @@ const packages: Record<Tab, Array<{
         "Breakfast Buffet daily",
         "24/7 Staff Assistance",
       ],
-      highlight: true,
     },
   ],
   Hajj: [
